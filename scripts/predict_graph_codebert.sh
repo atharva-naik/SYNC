@@ -1,0 +1,1 @@
+python -m models.GraphCodeBERT -pe -c candidate_snippets.json -q query_and_candidates.json -en experiments/GraphCodeBERT_codesearchnet -d "cuda:0" -bs 32

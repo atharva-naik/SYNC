@@ -1,0 +1,1 @@
+python -m models.CodeBERT -te -c data/query_codeseachnet.json -q data/query_codesearchnet.json -en experiments/CodeBERT_codesearchnet -d "cuda:1" -bs 48

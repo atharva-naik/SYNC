@@ -1,0 +1,1 @@
+python -m models.CCodeBERT -ter -pp triples/triples_w_rel_train.json -en rel_regressor_CodeBERT -d "cuda:1"

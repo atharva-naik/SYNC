@@ -1,6 +1,12 @@
 # **SYNC**
 Implementation for SYNC: Structurally guided Hard Negative Curricula for Generalizable Neural Code Search
 
+## Environment
+To recreate our computational environment we provide a YML file export of our conda environment (py3.7.yml)
+```
+conda env create -f py3.7.yml
+```
+
 ## **Data:**
 You can download all the files from here: https://drive.google.com/drive/folders/1LFm1lrjKxYHAm9Dq7fKx8m0ZNtRv88wI?usp=sharing 
 

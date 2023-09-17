@@ -1,0 +1,1 @@
+python -m models.GraphCodeBERT -t -tp data/conala-mined-100k_train_triplets.json -vp data/conala-mined-100k_val.json -en experiments/GraphCodeBERT -d "cuda:0" -bs 32 -e 5

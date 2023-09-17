@@ -1,0 +1,1 @@
+python -m models.UniXcoder -t -tp data/conala-mined-100k_train_triplets.json -vp data/conala-mined-100k_val.json -en experiments/UniXcoder_sync -d "cuda:0" -bs 48 -e 3 -beta 0.0001 -p 2 -sip "CoNaLa_top10_sim_intents.json" -ast -pcp "CoNaLa_AST_neg_samples.json" -w 13000

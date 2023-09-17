@@ -46,24 +46,36 @@ bash scripts/cnn_ood.sh
 
 CodeBERT:
 ```
+bash scripts/codebert.sh
+bash scripts/codebert_ood.sh
 ```
 GraphCodeBERT:
 ```
+bash scripts/graphcodebert.sh
+bash scripts/graphcodebert_ood.sh
 ```
 UniXcoder:
 ```
+bash scripts/unixcoder.sh
+bash scripts/unixcoder_ood.sh
 ```
 
 **DNS:**
 
 CodeBERT:
 ```
+bash scripts/codebert_dns.sh
+bash scripts/codebert_ood.sh
 ```
 GraphCodeBERT:
 ```
+bash scripts/graphcodebert_dns.sh
+bash scripts/graphcodebert_ood.sh
 ```
 UniXcoder:
 ```
+bash scripts/unixcoder_dns.sh
+bash scripts/unixcoder_ood.sh
 ```
 
 **DISCO:**
@@ -75,9 +87,13 @@ bash scripts/codebert_ood.sh
 ```
 GraphCodeBERT:
 ```
+bash scripts/graphcodebert_disco.sh
+bash scripts/graphcodebert_ood.sh
 ```
 UniXcoder:
 ```
+bash scripts/unixcoder_disco.sh
+bash scripts/unixcoder_ood.sh
 ```
 
 CodeRetriever:
@@ -89,12 +105,31 @@ bash scripts/codebert_ood.sh
 ```
 GraphCodeBERT:
 ```
+bash scripts/graphcodebert_code_retriever.sh
+bash scripts/graphcodebert_ood.sh
 ```
 UniXcoder:
 ```
+bash scripts/unixcoder_code_retriever.sh
+bash scripts/unixcoder_ood.sh
 ```
 
 ### **SYNC experiments:**
+
+CodeBERT:
+```
+bash scripts/codebert_sync.sh
+bash scripts/codebert_ood.sh
+```
+GraphCodeBERT:
+```
+bash scripts/graphcodebert_sync.sh
+bash scripts/graphcodebert_ood.sh
+```
+UniXcoder:
+```
+bash scripts/unixcoder_sync.sh
+bash scripts/unixcoder_ood.sh
 ```
 
 ## **Citation:**

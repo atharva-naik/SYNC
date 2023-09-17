@@ -1,0 +1,1 @@
+python -m models.UniXcoder -t -tp data/conala-mined-100k_train_triplets.json -vp data/conala-mined-100k_val.json -en experiments/UniXcoder -d "cuda:0" -bs 48 -e 5 -dns

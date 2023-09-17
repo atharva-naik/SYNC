@@ -1,1 +1,1 @@
-python -m models.CodeBERT -too -en experiments/CodeBERT_100k_10neg -d "cuda:0" -bs 48
+python -m models.CodeBERT -too -en experiments/CodeBERT_dyn_neg_sample_100k -d "cuda:0" -bs 48

@@ -1,0 +1,1 @@
+python -m models.CodeBERT -t -tp data/conala-mined-100k_train_triplets.json -vp data/conala-mined-100k_val.json -en experiments/CodeBERT_CodeBERT_dyn_neg_sample_100k -d "cuda:0" 
